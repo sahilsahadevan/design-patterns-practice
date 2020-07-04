@@ -1,0 +1,10 @@
+# Default ignored files
+target/
+# My ignored files and directories
+.mvn/
+mvnw*
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
