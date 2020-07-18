@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SingletonDemoApp {
 
     public static void main(String[] args) {
-        SpringApplication.run(DesignPatternsPracticeApplication.class, args);
+        SpringApplication.run(SingletonDemoApp.class, args);
         SingletonDemo singletonDemo1 = SingletonDemo.getInstance();
         SingletonDemo singletonDemo2 = SingletonDemo.getInstance();
         SingletonDemo singletonDemo3 = SingletonDemo.getInstance();
