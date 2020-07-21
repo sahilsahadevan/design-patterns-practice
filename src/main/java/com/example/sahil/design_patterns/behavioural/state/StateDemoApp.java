@@ -8,6 +8,23 @@ public class StateDemoApp {
 
     public static void main(String[] args) {
         SpringApplication.run(StateDemoApp.class, args);
+
+        Package pkg = new Package();
+
+        pkg.printStatus();
+        pkg.previousState();
+
+        pkg.nextState();
+        pkg.printStatus();
+
+        pkg.nextState();
+        pkg.printStatus();
+
+        pkg.nextState();
+        pkg.printStatus();
+
+        pkg.nextState();
+        pkg.printStatus();
     }
 
 }
